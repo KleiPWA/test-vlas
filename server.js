@@ -1,4 +1,5 @@
 const express = require('express');
+debugger;
 const favicon = require('express-favicon');
 const path = require('path');
 const port = process.env.PORT || 8080;
@@ -13,3 +14,5 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join('./', 'build', 'index.html'));
 });
 app.listen(port);
+console.log('Server started');
+
