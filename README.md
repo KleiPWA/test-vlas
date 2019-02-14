@@ -66,6 +66,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-### heroku
-https://test-vlas.herokuapp.com/ | https://git.heroku.com/test-vlas.git

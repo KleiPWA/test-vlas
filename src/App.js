@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import kats from './sourse/images/search';
-import myData from './sourse/data.json'; 
+import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -8,9 +7,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={kats} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hello test!
+            Hello word!
           </p>
           <a
             className="App-link"
