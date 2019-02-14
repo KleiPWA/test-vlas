@@ -33,11 +33,7 @@ img {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#funkystyling {
+  background: white url(./resources/images/search.png) left no-repeat;
+  padding-left: 17px;
 }
