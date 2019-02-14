@@ -30,21 +30,21 @@ class App extends Component {
     )
 
     return (
-      <Fragment>
+      < Fragment >
         <div className="App">
           <header className="App-header">
             <div className='main'>
               <div>
                 <input id="funkystyling" type="text"
                   placeholder="поиск авторов по имени"
-                  value={this.state.query}
+                  defaultValue={this.state.query}
                   onChange={this.doSearch} />
               </div>
               {authorsList}
             </div>
           </header>
         </div>
-      </Fragment>
+      </Fragment >
     );
   }
 }
